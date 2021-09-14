@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  user-select: none;
+  /* box-sizing: border-box; */
+}
+
+.game {
+  position: relative;
+  z-index: -5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  transform: none;
+}
+
+.view {
+  background: #666;
+  height: 90vh;
+  width: 90vw;
+  z-index: -1;
+}
+
+.wheel {
+  position: absolute;
+  /* top: 100%; */
+  /* left: 50%; */
+  width: 30vw;
+  aspect-ratio: 1/1;
+  background-color: #5aa;
+  transform: translate(-50%; -50%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.applogo {
+  height: 60vmin;
+  pointer-events: none;
+}
