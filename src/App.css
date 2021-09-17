@@ -7,9 +7,10 @@
 }
 
 .game {
-  position: relative;
+  position: absolute;
   z-index: -5;
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,10 +27,8 @@
 
 .wheel {
   position: absolute;
-  /* top: 100%; */
-  /* left: 50%; */
-  width: 30vw;
-  aspect-ratio: 1/1;
+  width: 100px;
+  aspect-ratio: 1 / 1;
   background-color: #5aa;
   transform: translate(-50%; -50%);
   border-radius: 50%;

@@ -26,7 +26,7 @@ const Wheel = (props) => {
   });
 
   return (
-    <animated.div {...turnWheel()} style={wheelPos}>
+    <animated.div {...turnWheel()} className="wheel" style={wheelPos}>
       <img src={logo} className="applogo" alt="logo" />
     </animated.div>
   );
