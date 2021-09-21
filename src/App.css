@@ -1,9 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
+  overflow: hidden;
   user-select: none;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 .game {
@@ -12,29 +12,33 @@
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: #282c34;
   transform: none;
 }
 
 .view {
+  position: absolute;
   background: #666;
   height: 90vh;
   width: 90vw;
   z-index: -1;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
 }
 
 .wheel {
-  position: absolute;
-  width: 100px;
-  aspect-ratio: 1 / 1;
   background-color: #5aa;
-  transform: translate(-50%; -50%);
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  top: 75%;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .applogo {
