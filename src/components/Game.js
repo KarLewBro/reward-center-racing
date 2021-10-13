@@ -10,7 +10,7 @@ const Game = () => {
   return (
     <div className="game">
       <View scene={scene} />
-      <Wheel setStep={setStep} />
+      <Wheel setStep={setStep} setScene={setScene} />
     </div>
   );
 };
